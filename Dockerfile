@@ -5,6 +5,7 @@ WORKDIR /app/frontend
 COPY frontend/package*.json ./
 RUN npm install
 
+ARG CACHE_BUST=1
 COPY frontend ./
 ENV VITE_API_URL=/api/v1
 RUN npm run build
