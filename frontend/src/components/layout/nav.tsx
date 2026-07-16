@@ -21,7 +21,7 @@ export function Nav() {
             <span className="size-3 rounded-full bg-accent" />
           </span>
           <span className="truncate font-display text-lg font-bold uppercase tracking-tight">
-            Crampton LLC
+            Crampton Rentals LLC
           </span>
         </Link>
 
