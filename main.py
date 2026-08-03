@@ -17,7 +17,12 @@ frontend_dist = Path(__file__).resolve().parent / "frontend" / "dist"
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],
+    allow_origins=[
+        "https://cramptonrentals.com",
+        "https://www.cramptonrentals.com",
+        "https://clintonkes.github.io",
+        "http://localhost:3000",
+    ],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],

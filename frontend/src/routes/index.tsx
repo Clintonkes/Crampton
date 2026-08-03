@@ -9,11 +9,11 @@ import { Textarea } from "@/components/ui/textarea";
 import {
   ArrowRight,
   ShieldCheck,
-  Sparkles,
-  Building2,
-  Home,
-  Hammer,
-  Truck,
+  Scissors,
+  Sprout,
+  Droplets,
+  TreePine,
+  Wind,
   Leaf,
   Award,
   Clock,
@@ -58,17 +58,17 @@ function Hero() {
             </div>
             <h1 className="text-balance font-display text-5xl font-semibold leading-[1.05] tracking-tight sm:text-6xl lg:text-7xl">
               The gold standard in{" "}
-              <span className="text-muted-foreground">property care.</span>
+              <span className="text-muted-foreground">lawn care.</span>
             </h1>
             <p className="mt-8 max-w-xl text-lg leading-relaxed text-muted-foreground">
-              Crampton LLC provides medical-grade cleaning protocols for
-              high-end residential and commercial estates. We don't just clean;
-              we restore.
+              Crampton LLC provides expert lawn care and landscaping for
+              high-end residential and commercial properties. We don't just
+              mow; we cultivate.
             </p>
             <div className="mt-10 flex flex-wrap gap-4">
               <Button asChild size="lg" className="rounded-full px-8">
                 <a href="#services">
-                  View Service Tiers <ArrowRight className="ml-2 size-4" />
+                  View Our Services <ArrowRight className="ml-2 size-4" />
                 </a>
               </Button>
               <Button asChild variant="outline" size="lg" className="rounded-full px-8">
@@ -80,12 +80,12 @@ function Hero() {
             <div className="absolute -bottom-8 -left-8 rounded-2xl bg-background p-6 shadow-2xl md:p-8">
               <div className="flex items-center gap-4">
                 <div className="grid size-12 place-items-center rounded-full bg-accent/20 text-accent">
-                  <Sparkles className="size-5" />
+                  <Leaf className="size-5" />
                 </div>
                 <div>
-                  <p className="font-display text-2xl font-bold">99.8%</p>
+                  <p className="font-display text-2xl font-bold">500+</p>
                   <p className="text-xs font-medium uppercase tracking-wider text-muted-foreground">
-                    Sanitization Rate
+                    Properties Serviced
                   </p>
                 </div>
               </div>
@@ -111,9 +111,9 @@ function Hero() {
 function LogosStrip() {
   const items = [
     { icon: ShieldCheck, label: "Fully Insured & Bonded" },
-    { icon: Leaf, label: "Eco-Certified Solvents" },
+    { icon: Leaf, label: "Eco-Certified Treatments" },
     { icon: Award, label: "5-Star Client Rated" },
-    { icon: Clock, label: "24/7 Turnover Support" },
+    { icon: Clock, label: "Flexible Seasonal Scheduling" },
   ];
   return (
     <section className="border-y border-primary/5 bg-background py-8">
@@ -134,34 +134,34 @@ function LogosStrip() {
 
 const services = [
   {
-    icon: Home,
-    title: "Residential Deep Clean",
-    desc: "Meticulous top-to-bottom cleans for private homes, condos, and estates — from baseboards to backsplashes.",
+    icon: Scissors,
+    title: "Lawn Mowing & Maintenance",
+    desc: "Precision mowing, edging, and trimming on a weekly or biweekly schedule for a consistently sharp lawn.",
   },
   {
-    icon: Truck,
-    title: "Turnover Elite",
-    desc: "Rapid, high-precision cleaning for luxury rental units and Airbnbs with same-day support.",
-  },
-  {
-    icon: Hammer,
-    title: "Post-Construction",
-    desc: "Industrial-grade dust extraction and finish detailing for newly completed developments.",
-  },
-  {
-    icon: Building2,
-    title: "Clinical Office",
-    desc: "Hospital-level sanitation for high-traffic corporate workspaces and medical facilities.",
-  },
-  {
-    icon: Sparkles,
-    title: "Move-In / Move-Out",
-    desc: "Handover-ready cleans that stand up to landlord walk-throughs and buyer inspections.",
+    icon: Sprout,
+    title: "Landscape Design & Installation",
+    desc: "Custom planting beds, sod installation, and hardscaping designed to transform your property.",
   },
   {
     icon: Leaf,
-    title: "Green Recurring Care",
-    desc: "Weekly, biweekly, or monthly programs using non-toxic, pet- and child-safe products.",
+    title: "Fertilization & Weed Control",
+    desc: "Season-long treatment programs using eco-friendly products that keep turf thick and weed-free.",
+  },
+  {
+    icon: Droplets,
+    title: "Irrigation Systems",
+    desc: "Installation, tune-ups, and repair for sprinkler systems that keep every zone evenly watered.",
+  },
+  {
+    icon: TreePine,
+    title: "Tree & Shrub Care",
+    desc: "Pruning, shaping, and health treatments to keep trees and shrubs strong through every season.",
+  },
+  {
+    icon: Wind,
+    title: "Seasonal Cleanup",
+    desc: "Spring and fall cleanups — leaf removal, bed edging, and mulching to reset your property.",
   },
 ];
 
@@ -178,8 +178,8 @@ function Services() {
               Specialized Programs
             </h2>
             <p className="mt-4 text-muted-foreground">
-              Our proprietary cleaning sequences are designed for specific
-              environmental needs — never one-size-fits-all.
+              Our proprietary care programs are designed for your property's
+              soil, sun, and climate — never one-size-fits-all.
             </p>
           </div>
         </div>
@@ -210,16 +210,16 @@ function Services() {
 function Protocol() {
   const items = [
     {
-      title: "HEPA Filtration Only",
-      desc: "We capture 99.97% of particles down to 0.3 microns — every job, every time.",
+      title: "Certified Turf Specialists",
+      desc: "Every technician is trained in agronomy fundamentals — soil health, mowing height, and seasonal timing.",
     },
     {
-      title: "Non-Toxic Bio-Solutions",
-      desc: "Proprietary eco-friendly agents that outperform harsh chemicals without the residue.",
+      title: "Eco-Safe Treatments",
+      desc: "Proprietary fertilization and weed-control programs that are safe for pets, kids, and pollinators.",
     },
     {
-      title: "Double-Check Validation",
-      desc: "Every job site is inspected by a lead supervisor before the keys go back.",
+      title: "Site Inspection Sign-Off",
+      desc: "Every property is walked and inspected by a lead technician before we call the job complete.",
     },
   ];
   return (
@@ -230,11 +230,11 @@ function Protocol() {
             The Method
           </span>
           <h2 className="mt-3 font-display text-4xl font-semibold leading-tight md:text-5xl">
-            The Crampton Protocol
+            The Crampton Standard
           </h2>
           <p className="mt-6 text-primary-foreground/60 max-w-xl">
-            Unlike standard cleaning services, our staff undergoes 40 hours of
-            rigorous procedural training before their first site visit.
+            Unlike standard lawn services, our crews undergo rigorous
+            procedural training in turf science before their first site visit.
           </p>
           <ul className="mt-10 grid gap-6 md:grid-cols-3">
             {items.map((item, i) => (
@@ -262,9 +262,9 @@ function Protocol() {
 function Process() {
   const steps = [
     { n: "01", title: "Book online", desc: "Share your property details and preferred window in under 60 seconds." },
-    { n: "02", title: "Site walkthrough", desc: "We identify delicate surfaces, high-traffic zones, and special requests." },
-    { n: "03", title: "Protocol clean", desc: "A trained team executes our multi-point sequence with HEPA equipment." },
-    { n: "04", title: "Supervisor sign-off", desc: "A lead inspects every room before we hand the space back to you." },
+    { n: "02", title: "Property assessment", desc: "We evaluate soil, turf health, sun exposure, and any special requests." },
+    { n: "03", title: "Scheduled service", desc: "A trained crew executes our multi-point care program with pro-grade equipment." },
+    { n: "04", title: "Quality inspection", desc: "A lead technician walks the property before we consider the job complete." },
   ];
   return (
     <section className="py-24 md:py-32">
@@ -274,7 +274,7 @@ function Process() {
             How it works
           </span>
           <h2 className="mt-3 font-display text-4xl font-semibold tracking-tight md:text-5xl">
-            Four steps to a spotless handover.
+            Four steps to a healthier lawn.
           </h2>
         </div>
         <div className="mt-16 grid gap-8 md:grid-cols-2 lg:grid-cols-4">
@@ -295,19 +295,19 @@ function Testimonials() {
   const quotes = [
     {
       quote:
-        "Crampton turned a five-property portfolio around in a single afternoon. Guests noticed immediately — our review scores jumped within a month.",
+        "Crampton turned our patchy, weed-choked yard into the best-looking lawn on the block in one season. Neighbors ask who we use.",
       name: "Marissa Vale",
-      role: "Boutique STR Operator",
+      role: "Homeowner, Henderson",
     },
     {
       quote:
-        "The most professional cleaning team we've ever hired. They treated our office like a surgical suite — and it shows.",
+        "The most professional lawn crew we've ever hired. They treat our HOA common areas like a show property — every single visit.",
       name: "Daniel Reyes",
-      role: "Practice Manager, Northline Dental",
+      role: "HOA Board Member, Northline",
     },
     {
       quote:
-        "After a full renovation, every other crew left dust behind. Crampton was the first to actually finish the job.",
+        "After a full landscape install, every other crew left the beds a mess. Crampton was the first to actually finish the job right.",
       name: "Alicia Chen",
       role: "Homeowner, Bridgewater",
     },
@@ -395,7 +395,7 @@ function ContactCTA() {
     name: "",
     email: "",
     phone: "",
-    service_type: "Residential Deep Clean",
+    service_type: "Lawn Mowing & Maintenance",
     message: "",
   });
   const [loading, setLoading] = useState(false);
@@ -416,7 +416,7 @@ function ContactCTA() {
         name: "",
         email: "",
         phone: "",
-        service_type: "Residential Deep Clean",
+        service_type: "Lawn Mowing & Maintenance",
         message: "",
       });
     } catch {
@@ -434,7 +434,7 @@ function ContactCTA() {
               Get a quote
             </span>
             <h2 className="mt-3 font-display text-4xl font-semibold leading-tight md:text-5xl">
-              Ready for a spotless handover?
+              Ready for a lawn you're proud of?
             </h2>
             <p className="mt-6 max-w-md text-primary-foreground/60">
               Send a few details about your property and we'll respond within 4
@@ -513,12 +513,12 @@ function ContactCTA() {
                 required
                 className="w-full rounded-xl border border-primary/10 bg-background px-4 py-3 text-sm outline-none transition focus:border-accent"
               >
-                <option>Residential Deep Clean</option>
-                <option>Turnover / Airbnb</option>
-                <option>Post-Construction</option>
-                <option>Commercial / Office</option>
-                <option>Move-In / Move-Out</option>
-                <option>Recurring Care</option>
+                <option>Lawn Mowing & Maintenance</option>
+                <option>Landscape Design & Installation</option>
+                <option>Fertilization & Weed Control</option>
+                <option>Irrigation Systems</option>
+                <option>Tree & Shrub Care</option>
+                <option>Seasonal Cleanup</option>
               </select>
             </div>
             <div className="mt-4">

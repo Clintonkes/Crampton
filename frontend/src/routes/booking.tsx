@@ -14,12 +14,12 @@ export const Route = createFileRoute("/booking")({
 });
 
 const serviceTypes = [
-  "Residential Deep Clean",
-  "Turnover / Airbnb",
-  "Post-Construction",
-  "Clinical Office",
-  "Move-In / Move-Out",
-  "Recurring Care",
+  "Lawn Mowing & Maintenance",
+  "Landscape Design & Installation",
+  "Fertilization & Weed Control",
+  "Irrigation Systems",
+  "Tree & Shrub Care",
+  "Seasonal Cleanup",
 ];
 
 const timeSlots = [
@@ -79,7 +79,7 @@ function Booking() {
               Booking
             </div>
             <h1 className="font-display text-4xl font-semibold tracking-tight sm:text-5xl lg:text-6xl">
-              Request Your Cleaning Service
+              Request Your Lawn Care Service
             </h1>
             <p className="mx-auto mt-6 max-w-2xl text-lg text-muted-foreground">
               Fill out the form below and we will get back to you within 24

@@ -1,6 +1,6 @@
-# Crampton LLC - Professional Cleaning Website
+# Crampton LLC - Professional Lawn Care Website
 
-A premium full-stack cleaning company website built with FastAPI backend and React frontend.
+A premium full-stack lawn care company website built with FastAPI backend and React frontend.
 
 ## Project Structure
 

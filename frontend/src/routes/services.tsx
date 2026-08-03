@@ -3,11 +3,11 @@ import { Nav } from "@/components/layout/nav";
 import { Footer } from "@/components/layout/footer";
 import { Button } from "@/components/ui/button";
 import {
-  Home,
-  Truck,
-  Hammer,
-  Building2,
-  Sparkles,
+  Scissors,
+  Sprout,
+  Droplets,
+  TreePine,
+  Wind,
   Leaf,
   ArrowRight,
 } from "lucide-react";
@@ -18,34 +18,34 @@ export const Route = createFileRoute("/services")({
 
 const services = [
   {
-    icon: Home,
-    title: "Residential Deep Clean",
-    desc: "Meticulous top-to-bottom cleans for private homes, condos, and estates — from baseboards to backsplashes.",
+    icon: Scissors,
+    title: "Lawn Mowing & Maintenance",
+    desc: "Precision mowing, edging, and trimming on a weekly or biweekly schedule for a consistently sharp lawn.",
   },
   {
-    icon: Truck,
-    title: "Turnover Elite",
-    desc: "Rapid, high-precision cleaning for luxury rental units and Airbnbs with same-day support.",
-  },
-  {
-    icon: Hammer,
-    title: "Post-Construction",
-    desc: "Industrial-grade dust extraction and finish detailing for newly completed developments.",
-  },
-  {
-    icon: Building2,
-    title: "Clinical Office",
-    desc: "Hospital-level sanitation for high-traffic corporate workspaces and medical facilities.",
-  },
-  {
-    icon: Sparkles,
-    title: "Move-In / Move-Out",
-    desc: "Handover-ready cleans that stand up to landlord walk-throughs and buyer inspections.",
+    icon: Sprout,
+    title: "Landscape Design & Installation",
+    desc: "Custom planting beds, sod installation, and hardscaping designed to transform your property.",
   },
   {
     icon: Leaf,
-    title: "Green Recurring Care",
-    desc: "Weekly, biweekly, or monthly programs using non-toxic, pet- and child-safe products.",
+    title: "Fertilization & Weed Control",
+    desc: "Season-long treatment programs using eco-friendly products that keep turf thick and weed-free.",
+  },
+  {
+    icon: Droplets,
+    title: "Irrigation Systems",
+    desc: "Installation, tune-ups, and repair for sprinkler systems that keep every zone evenly watered.",
+  },
+  {
+    icon: TreePine,
+    title: "Tree & Shrub Care",
+    desc: "Pruning, shaping, and health treatments to keep trees and shrubs strong through every season.",
+  },
+  {
+    icon: Wind,
+    title: "Seasonal Cleanup",
+    desc: "Spring and fall cleanups — leaf removal, bed edging, and mulching to reset your property.",
   },
 ];
 
@@ -61,10 +61,11 @@ function ServicesPage() {
               Services
             </div>
             <h1 className="font-display text-4xl font-semibold tracking-tight sm:text-5xl lg:text-6xl">
-              Professional Cleaning Solutions
+              Professional Lawn Care Solutions
             </h1>
             <p className="mx-auto mt-6 max-w-2xl text-lg text-muted-foreground">
-              Comprehensive cleaning solutions tailored to your specific needs.
+              Comprehensive lawn and landscape solutions tailored to your
+              property's specific needs.
             </p>
           </div>
         </section>
@@ -107,7 +108,7 @@ function ServicesPage() {
               Not Sure Which Service You Need?
             </h2>
             <p className="mx-auto mt-6 max-w-md text-primary-foreground/60">
-              Contact us and we will help you find the perfect cleaning solution.
+              Contact us and we will help you find the perfect lawn care solution.
             </p>
             <Button
               asChild

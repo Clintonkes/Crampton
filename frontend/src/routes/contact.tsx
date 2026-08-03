@@ -163,7 +163,7 @@ function ContactPage() {
                   </label>
                   <Textarea
                     rows={6}
-                    placeholder="Tell us about your cleaning needs..."
+                    placeholder="Tell us about your lawn care needs..."
                     value={formData.message}
                     onChange={(e) => update("message", e.target.value)}
                     required

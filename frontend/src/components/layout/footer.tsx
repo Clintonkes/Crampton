@@ -12,12 +12,12 @@ export function Footer() {
                 <span className="size-2.5 rounded-full bg-accent" />
               </span>
               <span className="font-display text-sm font-bold uppercase tracking-tight">
-                Crampton LLC
+                Crampton Lawn Care
               </span>
             </div>
             <p className="text-sm leading-relaxed text-muted-foreground">
-              Medical-grade cleaning protocols for high-end residences, rentals,
-              and commercial spaces in Henderson, CO.
+              Expert lawn care and landscaping for high-end residential and
+              commercial properties in Henderson, CO.
             </p>
           </div>
 
@@ -50,7 +50,7 @@ export function Footer() {
                 Services
               </Link>
               <Link to="/booking" className="text-muted-foreground hover:text-accent transition-colors">
-                Book a Clean
+                Get a Quote
               </Link>
               <Link to="/about" className="text-muted-foreground hover:text-accent transition-colors">
                 About Us

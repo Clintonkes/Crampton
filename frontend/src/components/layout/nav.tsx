@@ -21,7 +21,7 @@ export function Nav() {
             <span className="size-3 rounded-full bg-accent" />
           </span>
           <span className="truncate font-display text-lg font-bold uppercase tracking-tight">
-            Crampton Rentals LLC
+            Crampton Lawn Care
           </span>
         </Link>
 
@@ -41,7 +41,7 @@ export function Nav() {
           to="/booking"
           className="hidden rounded-full bg-primary px-5 py-2.5 text-sm font-semibold text-primary-foreground shadow-lg shadow-primary/10 transition-all hover:-translate-y-0.5 hover:bg-primary/90 md:block md:px-6"
         >
-          Book a Clean
+          Get a Quote
         </Link>
 
         <button
@@ -71,7 +71,7 @@ export function Nav() {
               className="rounded-full bg-primary px-5 py-2.5 text-center text-sm font-semibold text-primary-foreground"
               onClick={() => setOpen(false)}
             >
-              Book a Clean
+              Get a Quote
             </Link>
           </div>
         </div>

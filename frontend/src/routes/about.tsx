@@ -12,11 +12,11 @@ function About() {
   const reasons = [
     {
       title: "Trained Professionals",
-      desc: "Our staff is thoroughly trained and background-checked for your security.",
+      desc: "Our crews are thoroughly trained in turf care and background-checked for your security.",
     },
     {
       title: "Eco-Friendly Products",
-      desc: "We use safe, effective cleaning products that are gentle on your family and the environment.",
+      desc: "We use safe, effective fertilizers and treatments that are gentle on your family, pets, and the environment.",
     },
     {
       title: "Local & Reliable",
@@ -42,11 +42,11 @@ function About() {
               About Us
             </div>
             <h1 className="font-display text-4xl font-semibold tracking-tight sm:text-5xl lg:text-6xl">
-              About Crampton LLC
+              About Crampton Lawn Care
             </h1>
             <p className="mx-auto mt-6 max-w-2xl text-lg text-muted-foreground">
               Learn about our story, values, and commitment to excellence in
-              cleaning.
+              lawn care.
             </p>
           </div>
         </section>
@@ -62,15 +62,15 @@ function About() {
                 <p className="mt-6 text-lg leading-relaxed text-muted-foreground">
                   Founded with a commitment to excellence, Crampton LLC has built
                   a reputation as one of the leading providers of residential and
-                  commercial cleaning solutions in Henderson, Colorado, and
-                  surrounding areas.
+                  commercial lawn care and landscaping solutions in Henderson,
+                  Colorado, and surrounding areas.
                 </p>
                 <p className="mt-4 text-lg leading-relaxed text-muted-foreground">
                   Our focus is to listen to our clients, understand their needs,
                   and provide the exceptional level of service they deserve. Our
                   professional team uses eco-friendly products and advanced
-                  techniques to ensure your space is not just clean, but truly
-                  spotless.
+                  techniques to ensure your property is not just maintained, but
+                  truly thriving.
                 </p>
                 <Button asChild className="mt-8 rounded-full" size="lg">
                   <Link to="/booking">Request a Free Estimate</Link>
@@ -105,7 +105,7 @@ function About() {
           <div className="mx-auto max-w-7xl px-6">
             <div className="mb-16 text-center">
               <h2 className="font-display text-4xl font-semibold tracking-tight md:text-5xl">
-                Why Choose Crampton LLC?
+                Why Choose Crampton Lawn Care?
               </h2>
               <p className="mt-4 text-muted-foreground">
                 We are dedicated to delivering exceptional results with every
@@ -143,7 +143,7 @@ function About() {
             </h2>
             <p className="mx-auto mt-6 max-w-md text-primary-foreground/60">
               Contact us today and we will provide a free, no-obligation quote
-              for your cleaning needs.
+              for your lawn care needs.
             </p>
             <Button
               asChild

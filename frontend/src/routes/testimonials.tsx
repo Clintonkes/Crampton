@@ -14,42 +14,42 @@ const testimonials = [
     name: "Sarah Johnson",
     role: "Homeowner",
     content:
-      "Crampton cleaned my home today — they did a terrific job. They even moved the furniture to be sure the floors were cleaned — they really paid attention to detail.",
+      "Crampton mowed and edged my lawn today — they did a terrific job. They even trimmed around the flower beds — they really paid attention to detail.",
     rating: 5,
   },
   {
     name: "Michael Chen",
     role: "Business Owner",
     content:
-      "We would like to thank Crampton for an outstanding effort on this recently completed project. The work was completed on time and exceeded our expectations.",
+      "We would like to thank Crampton for an outstanding effort on our landscape renovation. The work was completed on time and exceeded our expectations.",
     rating: 5,
   },
   {
     name: "Emily Rodriguez",
     role: "Property Manager",
     content:
-      "After our construction project, Crampton cleaned it all up perfectly. They got rid of all the dust and debris. Saved us so much time and stress!",
+      "After our fall cleanup, Crampton cleared it all up perfectly. They got rid of every leaf and stray branch. Saved us so much time and stress!",
     rating: 5,
   },
   {
     name: "David Thompson",
     role: "Office Manager",
     content:
-      "Reliable, trustworthy, and excellent quality. We've been using them for monthly maintenance and couldn't be happier with the consistent results.",
+      "Reliable, trustworthy, and excellent quality. We've been using them for monthly lawn maintenance and couldn't be happier with the consistent results.",
     rating: 5,
   },
   {
     name: "Lisa Williams",
     role: "Homeowner",
     content:
-      "The move-out cleaning they provided was incredible. Our landlord was impressed, and we got our full deposit back! Highly recommend their services.",
+      "The irrigation tune-up they provided was incredible. Our water bill dropped and every zone is finally covering evenly! Highly recommend their services.",
     rating: 5,
   },
   {
     name: "Robert Kim",
     role: "Restaurant Owner",
     content:
-      "Professional team, great communication, and fantastic results. They showed up on time and left our space spotless. Five stars all around!",
+      "Professional team, great communication, and fantastic results. They showed up on time and left our patio landscaping spotless. Five stars all around!",
     rating: 5,
   },
 ];

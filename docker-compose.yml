@@ -9,17 +9,10 @@ services:
       - "8000:8000"
     environment:
       - SECRET_KEY=${SECRET_KEY:-your-secret-key-change-in-production}
-      - DATABASE_URL=sqlite:////app/crampton_cleaning.db
+      - DATABASE_URL=sqlite:////app/crampton_lawncare.db
     volumes:
       - ./data:/app/data
 
-  frontend:
-    build:
-      context: ./frontend
-      dockerfile: Dockerfile
-    ports:
-      - "3000:3000"
-    environment:
-      - VITE_API_URL=http://localhost:8000/api/v1
-    depends_on:
-      - backend
+# Frontend is deployed separately to GitHub Pages (see .github/workflows/frontend.yml).
+# For local frontend dev, run `npm run dev` in ./frontend — vite.config.ts already
+# proxies /api to http://localhost:8000.

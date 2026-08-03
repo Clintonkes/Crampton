@@ -16,19 +16,19 @@ const faqs = [
       "We service Henderson, Colorado and surrounding areas within a 30-mile radius including the Denver metro area. Contact us to confirm service availability in your area.",
   },
   {
-    question: "How much does cleaning cost?",
+    question: "How much does lawn care cost?",
     answer:
-      "Our pricing varies based on service type, property size, and frequency. We offer competitive rates starting at $89 for basic residential cleaning. Get a free quote for accurate pricing.",
+      "Our pricing varies based on service type, property size, and frequency. We offer competitive rates starting at $49 for basic mowing visits. Get a free quote for accurate pricing.",
   },
   {
-    question: "Do you bring your own cleaning supplies?",
+    question: "Do you bring your own equipment and products?",
     answer:
-      "Yes, we bring all professional-grade cleaning supplies and equipment. We use eco-friendly products that are safe for your family and pets.",
+      "Yes, we bring all professional-grade mowing, trimming, and treatment equipment. We use eco-friendly fertilizers and products that are safe for your family and pets.",
   },
   {
     question: "Are you insured and bonded?",
     answer:
-      "Absolutely. We are fully licensed, insured, and bonded for your peace of mind. All our cleaners undergo background checks.",
+      "Absolutely. We are fully licensed, insured, and bonded for your peace of mind. All our technicians undergo background checks.",
   },
   {
     question: "What is your cancellation policy?",

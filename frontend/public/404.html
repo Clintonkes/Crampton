@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Crampton Lawn Care</title>
+    <script>
+      // GitHub Pages has no server-side rewrites, so any deep link (e.g. /booking)
+      // hits this 404 page directly. Encode the path into a query string and
+      // redirect to index.html, which decodes it back before the router mounts.
+      var l = window.location;
+      l.replace(
+        l.protocol + "//" + l.host + "/?/" +
+        l.pathname.slice(1).replace(/&/g, "~and~") +
+        (l.search ? "&" + l.search.slice(1).replace(/&/g, "~and~") : "") +
+        l.hash
+      );
+    </script>
+  </head>
+  <body></body>
+</html>
