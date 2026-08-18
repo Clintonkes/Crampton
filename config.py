@@ -2,7 +2,7 @@ import os
 from pydantic_settings import BaseSettings
 
 class Settings(BaseSettings):
-    PROJECT_NAME: str = "Crampton LLC"
+    PROJECT_NAME: str = "Crampton Rentals"
     API_V1_STR: str = "/api/v1"
     
     SECRET_KEY: str = os.getenv("SECRET_KEY", "your-secret-key-change-in-production")
@@ -13,7 +13,7 @@ class Settings(BaseSettings):
 
     RESEND_API_KEY: str = os.getenv("RESEND_API_KEY", "")
     RESEND_FROM_EMAIL: str = os.getenv("RESEND_FROM_EMAIL", "Crampton <no-reply@cramptonllc.com>")
-    RESEND_FROM_NAME: str = os.getenv("RESEND_FROM_NAME", "Crampton LLC")
+    RESEND_FROM_NAME: str = os.getenv("RESEND_FROM_NAME", "Crampton Rentals")
     PUBLIC_SITE_URL: str = os.getenv("PUBLIC_SITE_URL", "http://localhost:8000")
 
     ADMIN_EMAIL: str = os.getenv("ADMIN_EMAIL", "harkllc@proton.me")

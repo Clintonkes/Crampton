@@ -61,7 +61,7 @@ function Hero() {
               <span className="text-muted-foreground">lawn care.</span>
             </h1>
             <p className="mt-8 max-w-xl text-lg leading-relaxed text-muted-foreground">
-              Crampton LLC provides expert lawn care and landscaping for
+              Crampton Rentals provides expert lawn care and landscaping for
               high-end residential and commercial properties. We don't just
               mow; we cultivate.
             </p>

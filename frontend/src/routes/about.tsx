@@ -60,7 +60,7 @@ function About() {
                   More Than a Decade of Excellence
                 </h2>
                 <p className="mt-6 text-lg leading-relaxed text-muted-foreground">
-                  Founded with a commitment to excellence, Crampton LLC has built
+                  Founded with a commitment to excellence, Crampton Rentals has built
                   a reputation as one of the leading providers of residential and
                   commercial lawn care and landscaping solutions in Henderson,
                   Colorado, and surrounding areas.

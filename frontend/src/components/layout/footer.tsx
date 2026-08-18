@@ -64,7 +64,7 @@ export function Footer() {
 
         <div className="mt-12 flex flex-col items-center justify-between gap-4 border-t border-primary/5 pt-8 md:flex-row">
           <p className="text-xs font-medium uppercase tracking-widest text-muted-foreground">
-            © {new Date().getFullYear()} Crampton LLC · All rights reserved.
+            © {new Date().getFullYear()} Crampton Rentals · All rights reserved.
           </p>
           <div className="flex gap-6">
             <a href="#" className="text-xs font-bold uppercase tracking-widest transition-colors hover:text-accent text-muted-foreground">

@@ -1,4 +1,4 @@
-# Crampton LLC - Professional Lawn Care Website
+# Crampton Rentals - Professional Lawn Care Website
 
 A premium full-stack lawn care company website built with FastAPI backend and React frontend.
 
@@ -57,7 +57,7 @@ ADMIN_EMAIL=cramptonllc@proton.me
 ADMIN_PASSWORD=your-secure-password
 RESEND_API_KEY=re_xxxxxxxxxxxxxxxxx
 RESEND_FROM_EMAIL=Crampton <no-reply@cramptonllc.com>
-RESEND_FROM_NAME=Crampton LLC
+RESEND_FROM_NAME=Crampton Rentals
 PUBLIC_SITE_URL=https://yourdomain.com
 ```
 
