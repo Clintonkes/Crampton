@@ -187,7 +187,7 @@ function Booking() {
                     Service Address *
                   </label>
                   <Input
-                    placeholder="123 Main St, Henderson, CO 80640"
+                    placeholder="16102 Charters Oaks Drive, Davison, MI 40423"
                     value={formData.address}
                     onChange={(e) => update("address", e.target.value)}
                     required

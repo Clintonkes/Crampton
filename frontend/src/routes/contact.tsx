@@ -31,7 +31,9 @@ const contacts = [
     title: "Address",
     content: (
       <p className="text-muted-foreground">
-        Henderson, CO 80640
+        16102 Charters Oaks Drive
+        <br />
+        Davison, MI 40423
       </p>
     ),
   },

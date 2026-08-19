@@ -17,7 +17,7 @@ export function Footer() {
             </div>
             <p className="text-sm leading-relaxed text-muted-foreground">
               Expert lawn care and landscaping for high-end residential and
-              commercial properties in Henderson, CO.
+              commercial properties in Davison, MI.
             </p>
           </div>
 
@@ -32,8 +32,8 @@ export function Footer() {
               </a>
             </div>
             <div className="flex items-center gap-2 text-muted-foreground">
-              <MapPin className="size-4" />
-              <span>Henderson, CO 80640</span>
+              <MapPin className="size-4 shrink-0" />
+              <span>16102 Charters Oaks Drive, Davison, MI 40423</span>
             </div>
             <div className="flex items-center gap-2 text-muted-foreground">
               <Clock className="size-4" />

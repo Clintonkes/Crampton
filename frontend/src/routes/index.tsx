@@ -54,7 +54,7 @@ function Hero() {
           <div className="max-w-2xl">
             <div className="mb-6 inline-flex items-center gap-2 rounded-full border border-primary/10 bg-background px-3 py-1 text-xs font-bold uppercase tracking-widest text-muted-foreground">
               <span className="block size-1.5 rounded-full bg-accent" />
-              Serving Henderson, CO & Denver Metro
+              Serving Davison, MI & Genesee County
             </div>
             <h1 className="text-balance font-display text-5xl font-semibold leading-[1.05] tracking-tight sm:text-6xl lg:text-7xl">
               The gold standard in{" "}
@@ -297,7 +297,7 @@ function Testimonials() {
       quote:
         "Crampton turned our patchy, weed-choked yard into the best-looking lawn on the block in one season. Neighbors ask who we use.",
       name: "Marissa Vale",
-      role: "Homeowner, Henderson",
+      role: "Homeowner, Davison",
     },
     {
       quote:
@@ -348,14 +348,14 @@ function Testimonials() {
 
 function ServiceAreas() {
   const areas = [
-    "Henderson",
-    "Denver",
-    "Thornton",
-    "Northglenn",
-    "Brighton",
-    "Commerce City",
-    "Arvada",
-    "Westminster",
+    "Davison",
+    "Flint",
+    "Grand Blanc",
+    "Burton",
+    "Lapeer",
+    "Goodrich",
+    "Flushing",
+    "Clio",
   ];
   return (
     <section id="areas" className="py-24 md:py-32">
@@ -369,8 +369,8 @@ function ServiceAreas() {
               Where we work.
             </h2>
             <p className="mt-4 max-w-md text-muted-foreground">
-              Serving the Denver metro area with same-week availability. Outside
-              our footprint? Ask — we travel for the right project.
+              Serving the Flint / Genesee County area with same-week availability.
+              Outside our footprint? Ask — we travel for the right project.
             </p>
           </div>
           <ul className="grid grid-cols-2 gap-px overflow-hidden rounded-2xl bg-primary/10 sm:grid-cols-4">

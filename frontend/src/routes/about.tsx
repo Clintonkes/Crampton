@@ -20,7 +20,7 @@ function About() {
     },
     {
       title: "Local & Reliable",
-      desc: "Proudly serving the Henderson community with dependable, on-time service.",
+      desc: "Proudly serving the Davison community with dependable, on-time service.",
     },
   ];
 
@@ -28,7 +28,7 @@ function About() {
     { value: "100%", label: "Satisfaction" },
     { value: "24/7", label: "Availability" },
     { value: "Fast", label: "Response" },
-    { value: "Local", label: "Henderson, CO" },
+    { value: "Local", label: "Davison, MI" },
   ];
 
   return (
@@ -62,8 +62,8 @@ function About() {
                 <p className="mt-6 text-lg leading-relaxed text-muted-foreground">
                   Founded with a commitment to excellence, Crampton Rentals has built
                   a reputation as one of the leading providers of residential and
-                  commercial lawn care and landscaping solutions in Henderson,
-                  Colorado, and surrounding areas.
+                  commercial lawn care and landscaping solutions in Davison,
+                  Michigan, and surrounding areas.
                 </p>
                 <p className="mt-4 text-lg leading-relaxed text-muted-foreground">
                   Our focus is to listen to our clients, understand their needs,

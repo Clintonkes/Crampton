@@ -13,7 +13,7 @@ const faqs = [
   {
     question: "What areas do you service?",
     answer:
-      "We service Henderson, Colorado and surrounding areas within a 30-mile radius including the Denver metro area. Contact us to confirm service availability in your area.",
+      "We service Davison, Michigan and surrounding areas within a 30-mile radius including the greater Flint / Genesee County area. Contact us to confirm service availability in your area.",
   },
   {
     question: "How much does lawn care cost?",
