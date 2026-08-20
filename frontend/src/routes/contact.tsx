@@ -19,10 +19,10 @@ const contacts = [
     title: "Phone",
     content: (
       <a
-        href="tel:+17206018355"
+        href="tel:+18102827257"
         className="text-accent font-semibold hover:underline"
       >
-        +1 (720) 601-8355
+        +1 (810) 282-7257
       </a>
     ),
   },
@@ -141,7 +141,7 @@ function ContactPage() {
                     </label>
                     <Input
                       type="tel"
-                      placeholder="+1 (720) 000-0000"
+                      placeholder="+1 (810) 000-0000"
                       value={formData.phone}
                       onChange={(e) => update("phone", e.target.value)}
                       required

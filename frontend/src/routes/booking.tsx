@@ -125,7 +125,7 @@ function Booking() {
                     </label>
                     <Input
                       type="tel"
-                      placeholder="+1 (720) 000-0000"
+                      placeholder="+1 (810) 000-0000"
                       value={formData.phone}
                       onChange={(e) => update("phone", e.target.value)}
                       required

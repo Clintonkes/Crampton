@@ -443,7 +443,7 @@ function ContactCTA() {
             <ul className="mt-10 space-y-4 text-sm">
               <li className="flex items-center gap-3">
                 <Phone className="size-4 text-accent" />
-                +1 (720) 601-8355
+                +1 (810) 282-7257
               </li>
               <li className="flex items-center gap-3">
                 <Mail className="size-4 text-accent" />
@@ -478,7 +478,7 @@ function ContactCTA() {
                   Phone
                 </label>
                 <Input
-                  placeholder="(720) 000-0000"
+                  placeholder="(810) 000-0000"
                   value={formData.phone}
                   onChange={(e) =>
                     setFormData({ ...formData, phone: e.target.value })
